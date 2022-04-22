@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        window.alert("Hell World");
+    </script>
+
+    <style>
+        .modal{
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            overflow: auto;
+            background-color:black;
+            background-color: rgba(0,0,0,0.4);
+        }
+        .modal-content{
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="AddQuestion">Add Question</button>
+    
+    
+    <div id="myModal" class="Modal">
+        <div id="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal...</p>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
